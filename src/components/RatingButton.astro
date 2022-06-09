@@ -1,0 +1,11 @@
+---
+const { btnText, classes, id = 0 } = Astro.props
+---
+<div 
+  id={id}
+  class:list={[
+  classes,
+  `bg-Medium-Grey-New text-Light-Grey w-8 h-8 rounded-full font-bold grid place-items-center hover:bg-Orange hover:text-white hover:cursor-pointer focus:text-white focus:bg-Light-Grey focus:cursor-pointer`,
+]} >
+  {btnText}
+</div>
