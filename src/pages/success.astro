@@ -1,6 +1,11 @@
 ---
+import Rating from "../components/Rating.astro";
+import ThankYou from "../components/ThankYou.astro";
 import BaseLayout from "../layout/BaseLayout.astro"
+import CardLayout from "../layout/CardLayout.astro";
 ---
 <BaseLayout>
-	<slot />
+  <CardLayout>
+      <ThankYou />
+  </CardLayout>
 </BaseLayout>
